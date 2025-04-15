@@ -1,0 +1,36 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('./ondas.jpg');
+}
+
+.login  {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 14rem;
+    height: 15rem;
+    padding: 60px;
+    margin-left: 38%;
+    margin-top: 10%;
+    border-radius: 25px;
+}
+
+.texto {
+    border-radius: 20px;
+    height: 20px;
+    width: 200px;
+    text-align:left;
+}
+
+button {
+    color: white;
+    background-color: rgb(91, 91, 237);
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 40px;
+
+}
+
+button:hover {
+    background-color: rgb(121, 173, 205);
+}
