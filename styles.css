@@ -1,36 +1,65 @@
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family:"Poppins", sans-serif ;
     background-image: url('./ondas.jpg');
 }
 
-.login  {
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(255, 255, 255);
-    text-align: center;
-    width: 14rem;
-    height: 15rem;
-    padding: 60px;
-    margin-left: 38%;
-    margin-top: 10%;
+    padding: 90px;
     border-radius: 25px;
 }
 
+.cardbody {
+    text-align: center;
+    padding-top: 2px;
+}
 .texto {
-    border-radius: 20px;
-    height: 20px;
-    width: 200px;
-    text-align:left;
+    padding: 13px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 25px;
 }
 
-button {
+.senha {
+    padding: 13px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 25px;
+}
+#botao {
     color: white;
     background-color: rgb(91, 91, 237);
-    border-radius: 20px;
     border: none;
-    width: 100px;
-    height: 40px;
-
+    width: 205px;
+    height: 48px;
+    font-size: 14px;
+    border-radius: 25px;
 }
 
-button:hover {
+#botao:hover {
     background-color: rgb(121, 173, 205);
+    cursor: pointer;
+}
+
+#esqueci {
+    color: rgb(0, 0, 0, 80%);
+    border: none;
+    background-color: white;
+}
+
+#esqueci:hover {
+    color: rgb(174, 174, 174);
+    cursor: pointer;
 }
